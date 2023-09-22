@@ -1,0 +1,11 @@
+.icon-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+    color: var(--color-main-dark-grey);
+}

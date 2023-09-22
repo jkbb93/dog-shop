@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
+# Build and output directories
+/dist/
+/build/
+/out/
+
+# Editor-specific files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Cache directories
+.cache/
+
+# Other generated files
+*.min.js
+*.min.css

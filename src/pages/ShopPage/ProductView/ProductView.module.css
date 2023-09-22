@@ -1,0 +1,10 @@
+.product-view-layout {
+    padding: 0 2%;
+}
+
+@media (min-width: 768px) {
+    .product-view-layout {
+        padding: 0 7%;
+        margin: auto;
+    }
+}

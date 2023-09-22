@@ -1,0 +1,16 @@
+.window-center {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 2.5%;
+}
+
+@media (min-width: 768px) {
+    .main-content-container {
+        margin: 0 9%;
+    }
+}

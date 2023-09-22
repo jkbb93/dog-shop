@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.number-of-products-message {
+    font-family: "Nunito sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 14px;
+    color: var(--color-main-dark-grey);
+    order: 3;
+    flex-basis: 100%;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .number-of-products-message {
+        order: 1;
+        flex-basis: auto;
+        text-align: center;
+        margin-top: 0;
+    }
+}

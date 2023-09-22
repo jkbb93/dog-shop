@@ -1,0 +1,20 @@
+.main-product-content {
+    margin-bottom: 24px;
+}
+
+.product-details-and-add-to-cart {
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+    .main-product-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 3%;
+        padding: 16px 0;
+    }
+
+    .product-details-and-add-to-cart {
+        margin-top: 0;
+    }
+}

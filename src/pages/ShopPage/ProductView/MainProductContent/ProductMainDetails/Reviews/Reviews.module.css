@@ -1,0 +1,14 @@
+.reviews {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.reviews label {
+    display: block;
+    line-height: 24px;
+    margin-left: 12px;
+    font-size: 14px;
+    transform: translateY(1px); 
+    color: var(--color-main-dark-grey);
+}

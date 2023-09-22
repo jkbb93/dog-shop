@@ -1,0 +1,15 @@
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout {
+    padding: 0 2%;
+}
+
+@media (min-width: 768px) {
+    .layout {
+        padding: 0 7%;
+        margin: auto;
+    }
+}

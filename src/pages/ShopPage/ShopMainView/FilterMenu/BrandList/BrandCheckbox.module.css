@@ -1,0 +1,12 @@
+.brand-checkbox {
+    padding-top: 8px;
+    width: 100%;
+}
+
+.brand-checkbox label {
+    color: var(--color-main-dark-grey);
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 4px;
+    width: 100%;
+}

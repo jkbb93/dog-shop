@@ -1,0 +1,34 @@
+.input-field-wrapper {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--color-light-grey);
+    width: 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.input {
+    font-family: var(--nav-font), sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    text-indent: 4px;
+    appearance: none;
+    border: none;
+    background-color: inherit;
+}
+
+.input.width-regular {
+    width: calc(100% - 32px);
+}
+
+.input.width-password {
+    width: calc(100% - 64px);
+}
+
+.input::placeholder {
+    color: var(--color-main-dark-grey);
+}
+
+.input:focus-visible {
+    outline: none;
+} 

@@ -1,0 +1,11 @@
+.label {
+    display: block;
+    color: var(--color-main-dark-grey);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.slider {
+    width: 100%;
+    max-width: 316px;
+}

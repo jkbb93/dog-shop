@@ -1,0 +1,29 @@
+.dialog {
+    margin: 3%;
+    animation: appear-smooth 75ms ease-out forwards;
+}
+
+@keyframes appear-smooth {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.message {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+}
+
+.button {
+    padding: 1rem 0;
+}

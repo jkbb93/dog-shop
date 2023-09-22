@@ -1,0 +1,13 @@
+.card {
+    min-height: 200px;
+    max-width: 300px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card h1 {
+    font-size: 1.5rem;
+}

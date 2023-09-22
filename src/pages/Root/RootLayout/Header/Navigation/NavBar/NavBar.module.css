@@ -1,0 +1,30 @@
+.nav {
+    order: 3;
+    flex-basis: 25%;
+}
+
+.nav-item-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle-menu:last-of-type {
+    margin-left: 20%;
+}
+
+
+@media (min-width: 992px) {
+    .nav {
+        flex-basis: 37%;
+    }
+
+    .nav-item-list {
+        justify-content: space-between;
+    }
+
+    .toggle-menu,
+    .toggle-menu:last-of-type {
+        margin-left: 16px;
+    }
+}

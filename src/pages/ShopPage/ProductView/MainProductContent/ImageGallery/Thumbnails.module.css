@@ -1,0 +1,29 @@
+.thumbnails {
+    padding-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 3%;
+}
+
+.thumbnails button {
+    border: 1px solid var(--color-light-grey);
+    border-radius: 5px;
+    background-color: var(--color-light-grey);
+    overflow: hidden;
+}
+
+.thumbnails button.active {
+    filter: brightness(0.7);
+    transform: scale(0.95);
+}
+
+.thumbnails button:hover {
+    opacity: 0.8;
+}
+
+.thumbnails img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}

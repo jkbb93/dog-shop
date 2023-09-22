@@ -1,0 +1,28 @@
+.category-list-item {
+    width: 100%;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 12px 0 2px;
+    text-align: left;
+    font-size: 14px;
+    color: var(--color-main-black);
+    font-weight: 600;
+    border-bottom: 1px solid var(--color-light-grey);
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 700;
+    border-bottom: 1px solid var(--color-main-dark-grey);
+}
+
+.button:not(.active) {
+    opacity: 0.5;
+}
+
+.button:not(.active):hover {
+    opacity: 0.35;
+}

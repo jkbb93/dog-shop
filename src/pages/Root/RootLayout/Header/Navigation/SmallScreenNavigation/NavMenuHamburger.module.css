@@ -1,0 +1,28 @@
+.hamburger-wrapper {
+    flex-basis: 25%;
+    order: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hamburger {
+    font-size: 24px;
+    transform: translateY(2px);
+}
+
+/* .hamburger {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 6px;
+}
+
+.hamburger i {
+    font-size: 24px;
+}
+
+.hamburger span {
+    font-size: 12px;
+} */

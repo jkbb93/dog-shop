@@ -1,0 +1,16 @@
+.error-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: inherit;
+}
+
+.error-feedback h1 {
+    margin-bottom: 8px;
+}
+
+.error-feedback p {
+    color: var(--color-main-dark-grey);
+    margin-bottom: 16px;
+}

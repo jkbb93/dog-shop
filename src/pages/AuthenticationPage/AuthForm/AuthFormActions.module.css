@@ -1,0 +1,7 @@
+.form-actions {
+    padding-top: 32px;
+}
+
+.form-actions button:first-child {
+    margin-bottom: 4px;
+}

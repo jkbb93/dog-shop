@@ -1,0 +1,33 @@
+.side-drawer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90vw;
+    height: 100vh;
+    overflow: scroll;
+    padding: 5%;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow);
+    animation: slide-in 200ms ease-out forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        left: -90vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+.close-button-wrapper {
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.close-button {
+    font-size: 28px;
+    color: var(--color-main-dark-grey);
+    font-weight: 300;
+}

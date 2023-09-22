@@ -1,0 +1,81 @@
+:root {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
+
+  --logo-font: "Fredoka", sans-serif;
+  --body-font: "Nunito", sans-serif;
+  --nav-font: "Nunito Sans", sans-serif;
+  --color-main-black: rgb(32, 33, 36);
+  --color-main-dark-grey: rgb(95, 99, 104);
+  --color-light-grey: rgb(224 227, 231);
+  --color-gradient-brown-orange: linear-gradient(to right, rgb(200, 90, 58), rgb(200, 120, 58));
+
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+body::before,
+body::after {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: var(--body-font);
+  color: var(--color-main-black);
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+button {
+  font-family: var(--nav-font), sans-serif;
+  background: none;
+  border: none;
+  appearance: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+a {
+  font-family: var(--nav-font), sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+label {
+  font-family: var(--nav-font), sans-serif;
+}
+
+/*
+DISABLE AUTOFILL HIGHLIGHTING ON INPUTS
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+*/

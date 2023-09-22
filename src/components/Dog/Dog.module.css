@@ -1,0 +1,24 @@
+.dog {
+    /* background-color: lightgrey; */
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dog img {
+    position: relative;
+    width: 130%;
+    left: -30px;
+}
+
+.eye-wrapper {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}

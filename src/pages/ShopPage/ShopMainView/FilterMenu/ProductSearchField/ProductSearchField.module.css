@@ -1,0 +1,12 @@
+.input {
+    padding: 4px 0;
+    border: 1px solid var(--color-main-black);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.input:focus-within {
+        border: 1px solid transparent;
+        outline: 2px solid var(--color-main-black);
+        /* outline: 2px solid rgb(50, 115, 246); */
+}

@@ -1,0 +1,21 @@
+.animation-wrapper {
+    animation: fade 0.3s linear forwards;
+    opacity: 0;
+}
+
+@keyframes fade {
+    0% {
+        transform: translateY(50vh);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0vh);
+    }
+}
+
+.card {
+    min-height: 376px;
+    max-width: 574px;
+    margin-top: 2%;
+}

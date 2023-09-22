@@ -1,0 +1,57 @@
+.wrapper {
+    display: inline-block;
+}
+
+.wrapper label {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: var(--color-main-dark-grey);
+    font-weight: 700;
+}
+
+.controls {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.input {
+    font-family: var(--nav-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: transparent;
+    width: 42px;
+    text-align: center;
+    border: none;
+}
+
+/* Remove spin buttons from input */
+
+/* Webkit */
+.input[type=number]::-webkit-inner-spin-button,
+.input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Moz */
+.input[type=number] {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+/* /////////////////////////////// */

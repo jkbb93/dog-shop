@@ -1,0 +1,20 @@
+.form {
+    text-align: left;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    max-width: 442px;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+@media(min-width: 390px) {
+    .form {
+        order: 1;
+        width: auto;
+    }
+}

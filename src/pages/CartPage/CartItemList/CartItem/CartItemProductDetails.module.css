@@ -1,0 +1,41 @@
+.cart-item-product-details {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.cart-item-product-details h2 {
+    font-size: 1rem;
+}
+
+.price {
+    flex-basis: 25%;
+}
+
+.price span {
+    display: block;
+    margin: 0 0 16px;
+    font-weight: 700;
+    text-align: right;
+    color: var(--color-main-black);
+}
+
+
+@media (min-width: 992px) {
+    .cart-item-product-details {
+        flex-basis: 25%;
+        order: 1;
+    }
+
+    .cart-item-product-details h2 {
+        font-size: 1.5rem;
+    }
+
+    .price {
+        order: 3;
+    }
+
+    .price span {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}

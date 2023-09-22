@@ -1,0 +1,16 @@
+.product-main-details {
+    text-align: left;
+    font-family: "Nunito sans", sans-serif;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+}
+
+.price {
+    font-family: var(--nav-font);
+    font-size: 1.5rem;
+}

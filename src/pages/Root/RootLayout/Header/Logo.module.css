@@ -1,0 +1,14 @@
+.logo-container {
+    order: 2;
+}
+
+.logo {
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 2.75rem;
+    background-image: var(--color-gradient-brown-orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

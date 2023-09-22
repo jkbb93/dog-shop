@@ -1,0 +1,39 @@
+.checkout-link {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.checkout-button {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+@media (min-width: 390px) {
+    .cart-actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 8px;;
+    }
+
+    .checkout-link {
+        order: 2;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 490px) {
+    .cart-actions {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .checkout-link {
+        order: 2;
+        width: auto;
+    }
+
+    .checkout-button {
+        padding: 1rem 2rem;
+    }
+}

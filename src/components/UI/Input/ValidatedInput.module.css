@@ -1,0 +1,43 @@
+/* .input-field-wrapper {
+    padding: 16px 16px 16px 0px;
+    border-bottom: 1px solid var(--color-light-grey);
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 18px;
+    font-size: 18px;
+    color: var(--color-main-dark-grey);
+} */
+/* 
+.input {
+    font-family: var(--nav-font), sans-serif;
+    display: inline-block;
+    font-size: 1rem;
+    text-indent: 4px;
+    appearance: none;
+    border: none;
+}
+
+.input.width-regular {
+    width: calc(100% - 32px);
+}
+
+.input.width-password {
+    width: calc(100% - 64px);
+}
+
+.input::placeholder {
+    color: var(--color-main-dark-grey);
+}
+
+.input:focus-visible {
+    outline: none;
+}
+

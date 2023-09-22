@@ -1,0 +1,39 @@
+.badge {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    transform: translate(40%, -40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: red;
+    color: #ffffff;
+    font-family: "Nunito sans", sans-serif;
+    font-weight: 700;
+}
+
+.bounce-animation {
+    animation: bounce 300ms linear;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(40%, -40%) scale(1);
+    }
+    10% {
+        transform: translate(40%, -40%) scale(0.9);
+    }
+    30% {
+        transform: translate(40%, -40%) scale(1.1);
+    }
+    50% {
+        transform: translate(40%, -40%) scale(1.15);
+    }
+    100% {
+        transform: translate(40%, -40%) scale(1);
+    }
+}

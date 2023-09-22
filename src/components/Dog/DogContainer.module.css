@@ -1,0 +1,17 @@
+.dog-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex; 
+    justify-content: space-around;       
+    animation: dog-slide-in 0.7s ease-out;
+  }
+  
+  @keyframes dog-slide-in {
+    0% {
+      bottom: -100%;
+    }
+    100% {
+      bottom: 0%;
+    }
+  }

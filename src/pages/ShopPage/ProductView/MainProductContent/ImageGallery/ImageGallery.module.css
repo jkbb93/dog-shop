@@ -1,0 +1,13 @@
+.image-gallery {
+    display: inline-block;
+    max-width: 450px;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid var(--color-light-grey);
+    border-radius: 5px;
+}

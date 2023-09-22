@@ -1,0 +1,31 @@
+.back-link {
+    text-align: right;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.back-link a {
+    color: inherit;
+    font-size: 16px;
+}
+
+.back-link a:hover {
+    opacity: 0.7;
+    text-decoration: underline dotted 2px var(--color-main-black);
+    text-underline-offset: 4px;
+}
+
+.back-link a i {
+    color: inherit;
+    font-size: 14px;
+}
+
+.back-link a span {
+    padding-left: 8px;
+}
+
+@media (min-width: 768px) {
+    .back-link {
+        margin-bottom: 0;
+    }
+}

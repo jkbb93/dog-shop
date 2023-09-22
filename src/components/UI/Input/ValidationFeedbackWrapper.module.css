@@ -1,0 +1,18 @@
+.validation-feedback-input-wrapper {
+    text-align: left;
+}
+
+.validation-feedback {
+    height: 18px;
+    padding-top: 4px;
+    white-space: nowrap;
+}
+
+.validation-feedback p {
+    font-family: var(--nav-font);
+    line-height: 14px;
+    font-size: 14px;
+    color: red;
+    font-weight: 700;
+    text-transform: uppercase;
+}

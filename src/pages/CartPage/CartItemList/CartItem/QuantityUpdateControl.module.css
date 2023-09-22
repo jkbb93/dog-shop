@@ -1,0 +1,15 @@
+.quantity-update-control {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .quantity-update-control {
+        flex-basis: 25%;
+        order: 2;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

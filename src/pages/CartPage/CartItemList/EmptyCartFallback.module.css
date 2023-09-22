@@ -1,0 +1,19 @@
+.wrapper {
+    text-align: center;
+}
+
+.message {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-family: var(--nav-font);
+}
+
+.button {
+    width: 100%;
+}
+
+@media (min-width: 490px) {
+    .button {
+        width: auto;
+    }
+}

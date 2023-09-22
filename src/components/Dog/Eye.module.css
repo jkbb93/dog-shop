@@ -1,0 +1,21 @@
+.eyeball {
+    position: relative;
+    overflow: hidden;
+    width: 80px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.pupil {
+    /* Place the center of the pupil in the center of the eye */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* ------------------------------------------------------ */
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--color-main-black);
+}

@@ -1,0 +1,10 @@
+.section {
+        position: relative;
+        padding: 0% 3%;
+}
+
+.color {
+    background-image: var(--color-gradient-brown-orange);
+    color: #ffffff;
+    box-shadow: var(--box-shadow);
+}
