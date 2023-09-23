@@ -2,8 +2,6 @@ const APIURL = import.meta.env.VITE_API_URL;
 import { createSlice, createAsyncThunk, createAction } from "@reduxjs/toolkit";
 import { handleAuthentication, logout } from "./auth-slice-thunks";
 
-let failTester = true;
-
 const saveCart = createAsyncThunk(
     "cartPersistence/save",
     async (cartToSave, { getState, rejectWithValue }) => {
@@ -12,12 +10,6 @@ const saveCart = createAsyncThunk(
             if (!userIsAuthenticated) {
                 localStorage.setItem("cart", JSON.stringify(cartToSave));
                 return cartToSave;
-            }
-
-            if (failTester) {
-                failTester = false;
-                await new Promise(resolve => setTimeout(resolve, 500));
-                throw new Error("fuck");
             }
 
             const response = await fetch(`${APIURL}/user/cart/save-cart`, {

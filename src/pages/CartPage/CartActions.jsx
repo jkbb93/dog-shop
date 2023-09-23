@@ -6,9 +6,9 @@ import classes from "./CartActions.module.css";
 function CartActions() {
     return (
         <div className={classes["cart-actions"]}>
-            <Link to="/checkout" className={classes["checkout-link"]}>
+            <Link to="/" className={classes["checkout-link"]}>
                 <Button classes={classes["checkout-button"]}>
-                    Go To Checkout
+                    Checkout
                 </Button>
             </Link>
             <EmptyCartForm />

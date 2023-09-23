@@ -7,7 +7,6 @@ import ShopMainView from "../pages/ShopPage/ShopMainView/ShopMainView";
 import ProductView from "../pages/ShopPage/ProductView/ProductView";
 import AuthenticationPage from "../pages/AuthenticationPage/AuthenticationPage";
 import CartPage from "../pages/CartPage/CartPage";
-import CheckoutPage from "../pages/CheckoutPage/CheckoutPage";
 import loaders from "./loaders";
 
 const routerTree = [{
@@ -45,10 +44,6 @@ const routerTree = [{
         {
             path: "cart",
             element: <CartPage />,
-        },
-        {
-            path: "checkout",
-            element: <CheckoutPage />,
         },
         {
             path: "auth",

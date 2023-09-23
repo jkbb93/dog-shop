@@ -19,8 +19,8 @@ function CartHeader(props) {
                     </div>
                 </div>
                 {cartHasItems &&
-                    <Link to="/checkout">
-                        <Button classes={classes.button}>Go To Checkout</Button>
+                    <Link to="/">
+                        <Button classes={classes.button}>Checkout</Button>
                     </Link>
                 }
             </div>
